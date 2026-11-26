@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
        strcpy(buffer, argv[1]);
        printf("buffer content= %s\n", buffer);
-       printf("strcpy() executed...\n");
+       printf("strcpy() executed perfect...\n");
 
        return 0;
 }
