@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
        if (argc < 2)
        {
               printf("strcpy() NOT executed at all....\n");
-              printf("Syntax: %s <characters> singed\n", argv[0]);
+              printf("Syntax: %s <characters> singed now\n", argv[0]);
               exit(0);
        }
 
