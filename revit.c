@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
        strcpy(buffer, argv[1]);
        printf("buffersd thsi does has content= %s ..... \n", buffer);
-       printf("strcpy()  mwelowexecuted perfect...\n");
+       printf("strcpy()  mwelow executed perfect...\n");
 
        return 0;
 }
