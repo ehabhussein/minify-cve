@@ -16,6 +16,17 @@ int main(int argc, char *argv[])
        }
 
 
+       if (strlen(argv[1]) >= sizeof(buffer))
+       {
+              printf("input too long: max %zu characters\n", sizeof(buffer) - 1);
+              exit(1);
+       }
+       if (strlen(argv[1]) >= sizeof(buffer))
+       {
+              printf("strcpy() NOT executed: input too long (max %zu characters)\n", sizeof(buffer) - 1);
+              exit(1);
+       }
+
        strcpy(buffer, argv[1]);
        printf("busdfffersd thsi does has content= %s ..... \n", buffer);
        printf("strcpy()  mwelow executed perfect...\n");
